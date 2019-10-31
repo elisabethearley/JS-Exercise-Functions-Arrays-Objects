@@ -37,9 +37,14 @@ function exampleFunction(num1, num2) {
  *   email: "leia@leia.com",
  * }
 */
-function makePersonObject(/* code here */) {
-  /* code here */
+function makePersonObject(prop1, prop2, prop3) {
+  return {
+    id: prop1,
+    name: prop2,
+    email: prop3
+  }
 }
+console.log(makePersonObject(10, 'liz', 'lizrule@gmail.com'))
 
 /**
  * ### Challenge `getName`
